@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "learn-scraping"
+version = "0.1.0"
+description = "A project to learn playwright"
+authors = ["thisisjab <heythisisjab@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright = "^1.45.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
